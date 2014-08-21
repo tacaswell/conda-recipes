@@ -18,6 +18,6 @@ requirements:
     - scipy >=0.7.0
 
 about:
-  license: LGPL
-  home: https://github.com/ContinuumIO/hexrd
-  summary: High energy diffraction microscopy
+  license: BSD
+  home: https://github.com/tschoonj/xraylib/wiki
+  summary: A library for X-ray matter interaction cross sections for X-ray fluorescence applications
