@@ -12,6 +12,7 @@ requirements:
     - numpy #>=1.4.0
     - scipy >=0.7.0
     - cython
+    - swig
 
   run:
     - python
