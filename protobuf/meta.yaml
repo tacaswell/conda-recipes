@@ -1,11 +1,11 @@
 package:
   name: protobuf
-  version: !!str 2.5.0
+  version: {{ environ.get('GIT_DESCRIBE_TAG','').replace('alpha-','a') }}.post{{ environ.get('GIT_DESCRIBE_NUMBER','') }}
+
 
 source:
-  fn: protobuf-2.5.0.tar.gz
-  url: https://pypi.python.org/packages/source/p/protobuf/protobuf-2.5.0.tar.gz
-  md5: 338813f3629d59e9579fed9035ecd457
+  git_url: https://github.com/google/protobuf.git
+  git_rev: master
 
 build:
   preserve_egg_dir: True
@@ -14,10 +14,12 @@ requirements:
   build:
     - python
     - setuptools
+    - six
 
   run:
     - python
     - setuptools
+    - six
 
 test:
   # Python imports

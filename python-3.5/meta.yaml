@@ -3,8 +3,8 @@ package:
   version: 3.5.0b2
 
 source:
-  fn: Python-3.5.0b2.tar.xz
-  url: https://www.python.org/ftp/python/3.5.0/Python-3.5.0b2.tar.xz
+  fn: Python-3.5.0b4.tar.xz
+  url: https://www.python.org/ftp/python/3.5.0/Python-3.5.0b4.tar.xz
   md5: ef12dce3770032138d83f6159e7d5c3a
 
 build:
